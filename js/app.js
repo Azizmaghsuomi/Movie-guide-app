@@ -46,6 +46,7 @@ let getMovie = () => {
             
         `;
         }
+        
         //If movie does NOT exists in database
         else {
           result.innerHTML = `<h3 class='msg'>${data.Error}</h3>`;
